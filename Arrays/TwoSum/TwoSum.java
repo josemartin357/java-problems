@@ -1,5 +1,3 @@
-package Arrays.TwoSum;
-
 class TwoSum {
     // method returns an array
     public int[] twoSum(int[] nums, int target) {

@@ -4,6 +4,9 @@
     "Arrays/DuplicatesSortedArray",
     "Arrays/TruncateSentence",
     "Arrays/Sum1DArray",
-    "Arrays/ConcatenationArray"
+    "Arrays/ConcatenationArray",
+    "Arrays/MergeSortedArray",
+    "Arrays/TwoSum",
+    "Arrays/ThreeSum"
   ]
 }
