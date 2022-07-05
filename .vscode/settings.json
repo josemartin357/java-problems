@@ -1,0 +1,9 @@
+{
+  "java.project.sourcePaths": [
+    "Arrays/BinarySearch",
+    "Arrays/DuplicatesSortedArray",
+    "Arrays/TruncateSentence",
+    "Arrays/Sum1DArray",
+    "Arrays/ConcatenationArray"
+  ]
+}
