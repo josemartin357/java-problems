@@ -1,0 +1,15 @@
+Queue
+
+ Follows FIFO logic(First in, first out)
+ Example: a printer
+ Queue is a collection designed for holding elements prior to processing 
+ Queue is an interface that extends from Collection
+ LinkedList is one implementation of Queue interface
+
+ Methods:
+ add(int index, element) adds element at end of queue
+ poll() retrieves and removes head of queue
+ size() returns size of queue
+ clear() removes all elements
+ remove(int index) removes element at specified index
+ isEmpty() checks if queue empty or not

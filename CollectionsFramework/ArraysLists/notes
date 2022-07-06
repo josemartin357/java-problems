@@ -1,0 +1,17 @@
+
+ArrayList
+
+Benefits of an ArrayList:
+- not fixed in size
+- allows duplicates
+- backed by an array
+- fast for data retrieval
+- ordered collection
+
+How the ArrayList works
+
+The ArrayList class has a regular array inside it. When an element is added, it is placed into the array. If the array is not big enough, a new, larger array is created to replace the old one and the old one is removed.
+
+When To Use
+ Use an ArrayList for storing and accessing data, and LinkedList to manipulate data.
+

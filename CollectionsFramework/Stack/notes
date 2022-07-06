@@ -1,0 +1,14 @@
+Stack 
+Follows LIFO logic
+Extends class vector with five operations that allow a vector to be treated as a stack
+push(insert), pop(remove), peek(view top item) operations provided
+Stack can be used as a List, as Stack extends from Vector which implements List
+ 
+Visualization:
+
+        5  -> top element -> elements pushed to top -> elements popped from top
+        4
+        3
+        2
+        1   -> first element
+      stack

@@ -7,6 +7,10 @@
     "Arrays/ConcatenationArray",
     "Arrays/MergeSortedArray",
     "Arrays/TwoSum",
-    "Arrays/ThreeSum"
+    "Arrays/ThreeSum",
+    "CollectionsFramework/ArraysLists",
+    "CollectionsFramework/Stack",
+    "CollectionsFramework/Queues",
+    "CollectionsFramework/LinkedList"
   ]
 }
