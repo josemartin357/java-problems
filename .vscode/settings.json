@@ -11,6 +11,8 @@
     "CollectionsFramework/ArraysLists",
     "CollectionsFramework/Stack",
     "CollectionsFramework/Queues",
-    "CollectionsFramework/LinkedList"
+    "CollectionsFramework/LinkedList",
+    "CollectionsFramework/Set",
+    "CollectionsFramework/Maps"
   ]
 }

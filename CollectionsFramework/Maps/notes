@@ -1,0 +1,40 @@
+Maps
+
+Collection Interface of keys and values.
+Includes HashTable, HashMap --> LinkedMap, SortedMap --> NaviagableMap --> TreeMap.
+Cannot contain duplicate keys.
+Each key can map at most one value.
+HashMap is the most common.
+
+HashMap
+A HashMap store items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
+One object is used as a key (index) to another object (value). It can store different types: String keys and Integer values, or the same type, like: String keys and String values:
+
+HashMap methods
+put() adds items
+get() to access a value; use its key as param
+remove() to remove a value; use key as reference
+clear() to remove all items
+size() to find out how many items there are 
+
+Loop Through a HashMap
+
+Loop through the items of a HashMap with a for-each loop.
+Note: Use the keySet() method if you only want the keys, and use the values() method if you only want the values:
+Example 1
+// Print keys
+for (String i : capitalCities.keySet()) {
+  System.out.println(i);
+}
+
+Example 2
+// Print values
+for (String i : capitalCities.values()) {
+  System.out.println(i);
+}
+
+Example 3
+// Print keys and values
+for (String i : capitalCities.keySet()) {
+  System.out.println("key: " + i + " value: " + capitalCities.get(i));
+}

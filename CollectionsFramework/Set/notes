@@ -1,0 +1,23 @@
+Sets
+
+An interface with no duplicates
+It includes HashSet, LinkedHashSet, TreeSet(which derived from interface SortedSet). A TreeSet gives you order(backed by TreeMap), HashSet is backed by HashMap and does not maintain order.
+Methaphor: think of it as a bag with balls of different colors; you dont know in what order they will be, but they will all be unique.
+More formally, sets contain no pair of elements e1 and e2, such that e1.equals(e2); and at most one null element.
+There are methods under the hood that check if elements are equal; and ignores them.
+
+Methods 
+add() to add items
+contains() to check whether an item exists in HashSet
+remove() to remove an item
+clear() to remove all items
+size() to get size
+
+
+Loop Through a HashSet
+
+Loop through the items of an HashSet with a for-each loop:
+Example
+for (String i : cars) {
+  System.out.println(i);
+}
