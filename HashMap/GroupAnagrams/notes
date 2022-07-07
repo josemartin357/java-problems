@@ -1,0 +1,27 @@
+Group anagrams
+
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+Example 1:
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+Example 2:
+Input: strs = [""]
+Output: [[""]]
+
+Example 3:
+Input: strs = ["a"]
+Output: [["a"]]
+
+LOGIC
+
+The goal with this exercise is to find which strings - when sorted - are the same.
+To do so, we use a HashMap that will store the sorted string as key, and any string that when sorted is the same as the key. For our return, we use an ArrayList to satisfy the return type of the function.
+1- We start by defining that if the String array is of size 0, then we can just return an empty array because the return list won't contain anything.
+2- Define a HashMap with String for key, and List for values.
+3-Iterate thru input String array, turn every String into array of char, sort that array of char, and then turn it back to a String.
+4- Add that String to map as key the first time that sorted String runs thru loop, and add its un sorted String version as value.
+5- If the next sorted String equals the key, then add that unsorted String to that key. If the next sorted String isn't a key in map, step 4 will handle it.
+6- Grab the map values and return them in a list.

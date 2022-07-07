@@ -1,0 +1,12 @@
+Java Collections
+
+Any group of individual objects which are represented as a single unit is known as the collection of the objects.
+
+The Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main “root” interfaces of Java collection classes.
+
+What is a Framework?
+A framework is a set of classes and interfaces which provide a ready-made architecture. In order to implement a new feature or a class, there is no need to define a framework. However, an optimal object-oriented design always includes a framework with a collection of classes such that all the classes perform the same kind of task. 
+
+Most used collections: ArrayList, HashMap, HashSet
+
+More info: https://www.geeksforgeeks.org/collections-in-java-2/

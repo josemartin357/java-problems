@@ -13,6 +13,7 @@
     "CollectionsFramework/Queues",
     "CollectionsFramework/LinkedList",
     "CollectionsFramework/Set",
-    "CollectionsFramework/Maps"
+    "CollectionsFramework/Maps",
+    "HashMap"
   ]
 }

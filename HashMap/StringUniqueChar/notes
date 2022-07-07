@@ -1,0 +1,23 @@
+HashMap
+
+First Unique Character in a String
+Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+
+Example 1:
+Input: s = "leetcode"
+Output: 0
+
+Example 2:
+Input: s = "loveleetcode"
+Output: 2
+
+Example 3:
+Input: s = "aabb"
+Output: -1
+
+LOGIC
+The goal is to find what is the first character from input String that only appears one.
+1- We make a HashMap that will hold each character as a key; and an implicit counter as a value
+2- We make a char array version of the string, we iterate thru it and place every character in HashMap as key.
+3- As we iterate, we set an initial value for each key(which represents each char)and increase the value if key already in map
+4- Now that we know the keys and values in the map, we need to keep in mind that HashMaps are unsorted. Therefore, we can loop thru String again and as we check every index, we return when we find one character from String that equals 1 in HashMap

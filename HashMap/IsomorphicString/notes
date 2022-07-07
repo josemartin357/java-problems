@@ -1,0 +1,36 @@
+Isomorphic Strings
+
+Given two strings s and t, determine if they are isomorphic.
+Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
+
+Example 1:
+Input: s = "egg", t = "add"
+Output: true
+
+Example 2:
+Input: s = "foo", t = "bar"
+Output: false
+
+Example 3:
+Input: s = "paper", t = "title"
+Output: true
+ 
+
+Constraints:
+1 <= s.length <= 5 * 104
+t.length == s.length
+s and t consist of any valid ascii character.
+
+LOGIC
+Two strings are isomorphic when the each letter of one can be each be replaced with one letter to get the second string.
+Example: "egg" and "add" can be broken like this: e->a    g->d    g->d. Here we replaced 'e' with 'a', and 'g' with 'd'.
+Example2: "foo" and "bar" are not isomorphic because: f->b     o->a       o->a. Here we replaced 'o' with 'a' twice giving us the word "baa"; not "bar"
+To solve this, we will use a HashMap to store the characters of String s as keys, and the characters of String t as values.
+
+SCENARIOS USED FOR LOGIC
+- if first string has no values, or only one value; then it is isomorphic.
+- if map has key (char from String s), we check if the value of that key equals the character from String t. If okay, we continue loop. If not, we return false on the function.
+- if key (char from String s) is not in map, we check that map doesnt have a value that equals the char fromt String t. If it doesnt, then we add the key (char from String s) with the value as the char from String t; and we continue looping. If map already has the value stored in another key, then we know we got a conflict and return false.
+- 
+
